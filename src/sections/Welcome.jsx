@@ -8,7 +8,7 @@ const Welcome = () => {
           <div key={item} className=" max-w-[950px]">
             <div className="flex items-center text-lg">
               <div className="w-[72px] h-[2px]  bg-accent mr-8"></div>
-              <h2 className="text-accent  leading-none font-gilroy uppercase text-[18px]">
+              <h2 className="text-accent tracking-[10px]  leading-none font-gilroy uppercase text-[18px]">
                 {item.title}
               </h2>
             </div>
