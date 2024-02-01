@@ -2,14 +2,18 @@ import Nav from "./components/Nav"
 import Welcome from "./sections/Welcome"
 import Sidepanel from "./components/Sidepanel"
 import Start from "./components/Start"
+import Blog from "./sections/Blog"
 function App() {
   return (
-    <main className="  bg-bg bg-[url('/bg.jpg')]  bg-cover relative">
+    <main className=" max-container bg-bg bg-[url('/bg.jpg')] bg-no-repeat relative">
       <Nav />
       <Sidepanel />
       <Start />
-      <section className="pt-[200px] px-[80px] pb-[845px]">
+      <section className="pt-[200px] px-[80px] ">
         <Welcome />
+      </section>
+      <section className="mt-[843px]">
+        <Blog />
       </section>
     </main>
   )
