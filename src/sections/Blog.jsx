@@ -1,7 +1,7 @@
 import Blogs from "../components/Blogs"
 const Blog = () => {
   return (
-    <div className="">
+    <div id="Blog" className="">
       <Blogs />
     </div>
   )

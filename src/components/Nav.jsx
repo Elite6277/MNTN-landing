@@ -5,7 +5,7 @@ import DropdownMenu from "./DropdownMenu"
 import { motion } from "framer-motion"
 const Nav = () => {
   return (
-    <header className="relative  text-primary  px-[80px] py-[64px] pb-0">
+    <header className="relative  text-primary  px-[80px] max-sm:px-[20px] py-[64px] pb-0">
       <nav className="flex sm:justify-between max-sm:justify-between">
         <a href="/">
           <img

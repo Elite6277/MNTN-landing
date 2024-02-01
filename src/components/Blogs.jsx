@@ -4,20 +4,23 @@ const Blogs = () => {
   return (
     <div>
       {blogs.map((blog, index) => (
-        <div key={blog.digit} className="mt-[200px]">
+        <div
+          key={blog.digit}
+          className="mt-[200px] max-sm:mt-[40px] max-sm:px-[20px]"
+        >
           <div
-            className={`flex justify-center max-xl:flex-col max-xl:items-center ${
+            className={`flex justify-center max-xl:flex-col max-xl:items-center  ${
               index % 2 === 0 ? "" : "flex-row-reverse"
             }`}
           >
             <div className="max-w-[632px] py-[140px]">
               <div className="flex items-center">
                 <div className="w-[72px] h-[2px] bg-accent mr-8 max-sm:hidden"></div>
-                <p className="text-accent tracking-[10px] leading-none font-gilroy uppercase text-[18px] max-sm:text-[10px]">
+                <p className="text-accent tracking-[10px] leading-none font-gilroy uppercase text-[18px]">
                   {blog.title}
                 </p>
               </div>
-              <h2 className="mt-[27px] leading-none font-Chronicle text-[64px] text-primary max-w-[555px]">
+              <h2 className="mt-[27px] leading-none font-Chronicle text-[64px] max-sm:text-[40px] text-primary max-w-[555px]">
                 {blog.subtitle}
               </h2>
               <p className="text-primary mt-[27px] font-gilroy text-[18px]">
@@ -33,7 +36,7 @@ const Blogs = () => {
             <div
               className={`${
                 index % 2 === 0 ? "ml-[114px]" : "mr-[114px]"
-              } max-md:ml-[0px] max-xl:mr-[0px]`}
+              } max-xl:ml-[0px] max-xl:mr-[0px]`}
             >
               <img src={blog.image} width={566} height={720} alt="" />
             </div>

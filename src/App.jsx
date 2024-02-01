@@ -9,10 +9,10 @@ function App() {
       <Nav />
       <Sidepanel />
       <Start />
-      <section className="pt-[200px] px-[80px] ">
+      <section className="pt-[200px]  px-[80px]  max-sm:px-[20px]">
         <Welcome />
       </section>
-      <section className="mt-[843px]">
+      <section className="mt-[843px] ">
         <Blog />
       </section>
     </main>
