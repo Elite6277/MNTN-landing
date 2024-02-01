@@ -4,8 +4,8 @@ const Welcome = () => {
   return (
     <>
       {welcomeSection.map((item) => (
-        <div className="flex justify-center items-center">
-          <div key={item} className=" max-w-[950px] max-sm:max-w-[100%]">
+        <div key={item} className="flex justify-center items-center">
+          <div className=" max-w-[950px] max-sm:max-w-[100%]">
             <div className="flex items-center text-lg">
               <div className="w-[72px] h-[2px]  bg-accent mr-8 max-sm:hidden"></div>
               <h2 className="text-accent tracking-[10px]  leading-none font-gilroy uppercase text-[18px] max-sm:text-[10px]">

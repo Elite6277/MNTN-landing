@@ -18,6 +18,15 @@ export const followLink = [
     twitter,
   },
 ]
+export const startLink = [
+  {
+    start: "Start",
+    one: "01",
+    two: "02",
+    three: "03",
+    empty: "",
+  },
+]
 
 export const welcomeSection = [
   {
