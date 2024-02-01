@@ -1,4 +1,5 @@
 import { welcomeSection } from "../constants"
+import "animate.css"
 
 const Welcome = () => {
   return (
@@ -19,7 +20,10 @@ const Welcome = () => {
               <p className=" mr-[16px] font-gilroy text-[18px] text-primary">
                 {item.scroll}
               </p>
-              <a href="#Blog" className="pointer">
+              <a
+                href="#Blog"
+                className="pointer animate__animated animate__bounce animate__infinite	animate__slower"
+              >
                 <img src={item.arrowDown} alt="" />
               </a>
             </div>
