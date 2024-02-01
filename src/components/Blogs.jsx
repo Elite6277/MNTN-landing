@@ -13,8 +13,11 @@ const Blogs = () => {
               index % 2 === 0 ? "" : "flex-row-reverse"
             }`}
           >
-            <div className="max-w-[632px] py-[140px]">
-              <div className="flex items-center">
+            <div className="max-w-[632px] py-[140px] relative">
+              <div className="flex items-center ">
+                <div className="absolute top-[55px] -left-[142px] max-xl:left-[70px]">
+                  <img src={blog.digit} alt="" />
+                </div>
                 <div className="w-[72px] h-[2px] bg-accent mr-8 max-sm:hidden"></div>
                 <p className="text-accent tracking-[10px] leading-none font-gilroy uppercase text-[18px]">
                   {blog.title}
@@ -35,7 +38,7 @@ const Blogs = () => {
             </div>
             <div
               className={`${
-                index % 2 === 0 ? "ml-[114px]" : "mr-[114px]"
+                index % 2 === 0 ? "ml-[114px]" : "mr-[264px]"
               } max-xl:ml-[0px] max-xl:mr-[0px]`}
             >
               <img src={blog.image} width={566} height={720} alt="" />
