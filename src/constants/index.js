@@ -4,6 +4,12 @@ export const navLinks = [
   { href: "#about-us", label: "About Us" },
   { href: "#blog", label: "Blog" },
 ]
+export const menuNavLinks = [
+  { href: "#equipments", label: "Equipment" },
+  { href: "#about-us", label: "About Us" },
+  { href: "#blog", label: "Blog" },
+  { href: "#account", label: "Account" },
+]
 
 export const followLink = [
   {

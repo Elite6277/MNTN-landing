@@ -5,7 +5,7 @@ const Sidepanel = () => {
       {followLink.map((link) => (
         <div
           key={link}
-          className="text-primary font-gilroy z-10 absolute rotate-90 flex top-[400px] w-[173px] justify-between"
+          className="max-xl:hidden text-primary font-gilroy z-10 absolute rotate-90 flex top-[420px] w-[173px] justify-between"
         >
           <div>
             <a className="mr-[10px]" href="/">

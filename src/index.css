@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/chronicle-display");
+
 @font-face {
   font-family: "Gilroy-Bold";
   src: url("./assets/fonts/Gilroy-Bold.woff") format("woff");
@@ -7,30 +9,31 @@
   src: url("./assets/fonts/Gilroy-ExtraBold.woff") format("woff");
 }
 @font-face {
-    font-family: 'Chronicle-Semi';
-    src: url('ChronicleDisplay-Semi.woff2') format('woff2'),
-        url('ChronicleDisplay-Semi.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Chronicle-Semi";
+  src:
+    url("ChronicleDisplay-Semi.woff2") format("woff2"),
+    url("ChronicleDisplay-Semi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
-
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: "Chronicle Display", sans-serif; */
+  font-weight: 300;
+}
 
-  @layer components {
-    .max-container {
-      max-width: 1760px;
-      margin: 0 auto;
-    }
+@layer components {
+  .max-container {
+    max-width: 1760px;
+    margin: 0 auto;
   }
+}

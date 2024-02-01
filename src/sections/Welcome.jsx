@@ -12,7 +12,7 @@ const Welcome = () => {
                 {item.title}
               </h2>
             </div>
-            <p className="mt-8 leading-none font-chronicle_semi text-[88px] text-primary capitalize max-lg:text-lg">
+            <p className="mt-8 leading-none font-Chronicle text-[88px] text-primary capitalize max-lg:text-lg">
               {item.subtitle}
             </p>
             <div className="flex mt-[32px]">

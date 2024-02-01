@@ -19,6 +19,7 @@ export default {
         gilroy: ["Gilroy-Bold", "sans-serif"],
         gilroy_bold: ["Gilroy-ExtraBold", "sans-serif"],
         chronicle_semi: ["Chronicle-Semi", "sans-serif"],
+        Chronicle: ["Chronicle Display, sans-serif"],
       },
       colors: {
         primary: "#FFF",

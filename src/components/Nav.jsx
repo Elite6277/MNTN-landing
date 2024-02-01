@@ -1,6 +1,7 @@
 import { hamburger } from "../assets/icons"
 import { profile } from "../assets/icons"
 import { navLinks } from "../constants"
+import DropdownMenu from "./DropdownMenu"
 import { motion } from "framer-motion"
 const Nav = () => {
   return (
@@ -31,9 +32,10 @@ const Nav = () => {
               Account
             </a>
           </div>
-          <div className="hidden max-lg:block">
+          {/* <div className="hidden max-lg:block">
             <img src={hamburger} alt="hamburger icon" width={25} height={25} />
-          </div>
+          </div> */}
+          <DropdownMenu />
         </div>
       </nav>
     </header>
