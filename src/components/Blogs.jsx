@@ -15,7 +15,10 @@ const Blogs = () => {
           >
             <div className="max-w-[632px] py-[140px] relative">
               <div className="flex items-center ">
-                <div className="absolute top-[55px] -left-[142px] max-xl:left-[70px]">
+                <div
+                  id={blog.id}
+                  className="absolute top-[55px] -left-[142px] max-xl:left-[70px]"
+                >
                   <img src={blog.digit} alt="digit" />
                 </div>
                 <div className="w-[72px] h-[2px] bg-accent mr-8 max-sm:hidden"></div>
