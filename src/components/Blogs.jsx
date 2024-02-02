@@ -5,20 +5,17 @@ const Blogs = () => {
     <div className="container">
       {blogs.map((blog, index) => (
         <div
-          key={blog.digit}
+          key={blog.id} // используем уникальный идентификатор в качестве ключа
           className="mt-[200px] max-sm:mt-[40px] max-sm:px-[20px]"
         >
           <div
-            className={`flex  justify-between ml-[150px] max-xl:flex-col max-xl:items-center max-xl:ml-[0px]  max-2xl:px-[10px] ${
-              index % 2 === 0 ? "" : "flex-row-reverse ml-0"
-            }`}
+            className={`flex justify-between ${
+              index === 1 ? "flex-row-reverse ml-[0px]" : "ml-[150px]"
+            } max-xl:flex-col max-xl:items-center max-xl:ml-[0px] max-2xl:px-[10px]`}
           >
             <div className="max-w-[632px] py-[140px] relative">
               <div className="flex items-center ">
-                <div
-                  id={blog.id}
-                  className="absolute top-[55px] -left-[142px] max-xl:left-[70px]"
-                >
+                <div className="absolute top-[55px] -left-[142px] max-xl:left-[70px]">
                   <img src={blog.digit} alt="digit" />
                 </div>
                 <div className="w-[72px] h-[2px] bg-accent mr-8 max-sm:hidden"></div>
@@ -39,11 +36,7 @@ const Blogs = () => {
                 <img src={blog.arrowRight} alt="" />
               </div>
             </div>
-            <div
-              className={`${
-                index % 2 === 0 ? "" : ""
-              } max-xl:ml-[0px] max-xl:mr-[0px]`}
-            >
+            <div>
               <img src={blog.image} width={566} height={720} alt="" />
             </div>
           </div>

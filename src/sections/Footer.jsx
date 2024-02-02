@@ -16,7 +16,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <p className="font-gilroy text-primary/50">
+          <p className="font-gilroy text-primary/50 max-md:mt-[20px]">
             Copyright 2024 MNTN, Inc. Terms & Privacy developed by Medet
           </p>
         </div>
