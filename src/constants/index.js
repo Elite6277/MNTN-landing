@@ -47,6 +47,7 @@ export const welcomeSection = [
 
 export const blogs = [
   {
+    id: "one",
     digit: digit_1,
     title: "Get Started",
     subtitle: "What level of  hiker are you?",
@@ -56,6 +57,7 @@ export const blogs = [
     image: picture_1,
   },
   {
+    id: "two",
     digit: digit_2,
     title: "Hiking Essentials",
     subtitle: "Picking the right Hiking Gear!",
@@ -65,6 +67,7 @@ export const blogs = [
     image: picture_2,
   },
   {
+    id: "three",
     digit: digit_3,
     title: "where you go is the key",
     subtitle: "Understand Your Map & Timing",

@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-gilroy text-primary/50">
-            Copyright 2023 MNTN, Inc. Terms & Privacy
+            Copyright 2024 MNTN, Inc. Terms & Privacy developed by Medet
           </p>
         </div>
       </div>

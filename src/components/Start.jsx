@@ -19,13 +19,13 @@ const Start = () => {
                 </a>
               </li>
               <li className="mt-[40px]">
-                <a href="/">{link.one}</a>
+                <a href="#one">{link.one}</a>
               </li>
               <li className="mt-[40px]">
-                <a href="/">{link.two}</a>
+                <a href="#two">{link.two}</a>
               </li>
               <li className="mt-[40px]">
-                <a href="/">{link.three}</a>
+                <a href="#three">{link.three}</a>
               </li>
               <li className="mt-[40px]">
                 <a href="/">{link.empty}</a>
