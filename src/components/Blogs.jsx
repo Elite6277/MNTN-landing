@@ -9,8 +9,8 @@ const Blogs = () => {
           className="mt-[200px] max-sm:mt-[40px] max-sm:px-[20px]"
         >
           <div
-            className={`flex  justify-between ml-[150px] max-xl:flex-col max-xl:items-center  ${
-              index % 2 === 0 ? "" : "flex-row-reverse ml-[0px]"
+            className={`flex  justify-between ml-[150px] max-xl:flex-col max-xl:items-center max-xl:ml-[0px]  max-2xl:px-[10px] ${
+              index % 2 === 0 ? "" : "flex-row-reverse ml-0"
             }`}
           >
             <div className="max-w-[632px] py-[140px] relative">
