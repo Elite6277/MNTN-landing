@@ -74,3 +74,23 @@ export const blogs = [
     image: picture_3,
   },
 ]
+export const footerLinks = [
+  {
+    title: "More on The Blog",
+    links: [
+      { name: "About MNTN", link: "/" },
+      { name: "Contributors & Writers", link: "/" },
+      { name: "Write For Us", link: "/" },
+      { name: "Contact Us", link: "/" },
+      { name: "Privacy Policy", link: "/" },
+    ],
+  },
+  {
+    title: "More on MNTN",
+    links: [
+      { name: "The Team", link: "/" },
+      { name: "Jobs", link: "/" },
+      { name: "Press", link: "/" },
+    ],
+  },
+]

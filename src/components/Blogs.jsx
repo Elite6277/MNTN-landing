@@ -2,15 +2,15 @@ import { blogs } from "../constants"
 
 const Blogs = () => {
   return (
-    <div>
+    <div className="container">
       {blogs.map((blog, index) => (
         <div
           key={blog.digit}
           className="mt-[200px] max-sm:mt-[40px] max-sm:px-[20px]"
         >
           <div
-            className={`flex justify-center max-xl:flex-col max-xl:items-center  ${
-              index % 2 === 0 ? "" : "flex-row-reverse"
+            className={`flex  justify-between ml-[150px] max-xl:flex-col max-xl:items-center  ${
+              index % 2 === 0 ? "" : "flex-row-reverse ml-[0px]"
             }`}
           >
             <div className="max-w-[632px] py-[140px] relative">
@@ -38,7 +38,7 @@ const Blogs = () => {
             </div>
             <div
               className={`${
-                index % 2 === 0 ? "ml-[114px]" : "mr-[264px]"
+                index % 2 === 0 ? "" : ""
               } max-xl:ml-[0px] max-xl:mr-[0px]`}
             >
               <img src={blog.image} width={566} height={720} alt="" />

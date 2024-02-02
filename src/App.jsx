@@ -3,6 +3,7 @@ import Welcome from "./sections/Welcome"
 import Sidepanel from "./components/Sidepanel"
 import Start from "./components/Start"
 import Blog from "./sections/Blog"
+import Footer from "./sections/Footer"
 function App() {
   return (
     <main className=" max-container bg-bg bg-[url('/bg.jpg')] bg-no-repeat relative">
@@ -14,6 +15,9 @@ function App() {
       </section>
       <section className="mt-[843px] ">
         <Blog />
+      </section>
+      <section className="pt-[200px] pb-[120px] container">
+        <Footer />
       </section>
     </main>
   )

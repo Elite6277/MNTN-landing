@@ -38,6 +38,7 @@ body {
 @layer components {
   .container {
     max-width: 1462px;
+    margin: 0 auto;
   }
   .max-container {
     max-width: 1920px;
